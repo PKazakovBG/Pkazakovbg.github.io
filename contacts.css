@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  header .row,
+  footer .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    margin: 0;
+    
+    
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  header p {
+    padding: 0 20px;
+    margin: 0;
+    font-size: 20px;
+    
+  }
+  .wcpt {
+    margin-top:200px;
+    float: righ
+    display: flex;
+    flex-wrap: wrap;
+    right: 150px;
+    margin-top: 0px;
+    position: relative;
+  }
+  .wcpt img {
+    
+    position: absolute;
+    top:50px;
+    left: 150px;
+  }
+  .logos {
+    margin-top: 200px;
+      float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 0px;
+    
+  }
