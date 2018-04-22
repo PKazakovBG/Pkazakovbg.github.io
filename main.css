@@ -146,8 +146,6 @@ body {
     height: 62px;
     
   }
-[class*="col-"] {
-    width: 100%;
-}
+
 
  
