@@ -40,6 +40,10 @@ body {
     
   }
 
+ header p:hover{
+    color:rgb(255, 255, 255)
+  }
+
   .wcpt {
     margin-top:200px;
     float: righ
