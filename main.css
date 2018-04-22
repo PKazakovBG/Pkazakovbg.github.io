@@ -147,5 +147,9 @@ body {
     
   }
 
-
+@media (max-width: 800px) {
+    float: none;
+    width: 100%;
+  }
+}
  
