@@ -41,7 +41,14 @@ body {
     font-size: 20px; 
   }
   header p:hover{
-    color:rgb(255, 255, 255)
+      transform: scale(1.5);
+  }
+  a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    
+}
+
   }
   .wcpt {
     margin-top:200px;
@@ -100,10 +107,12 @@ body {
     margin: 0 0 30px;
     width: 100% ;
     height:350px ;
-    border: 2px inset white;
+    border: 2px groove white;
     border-radius: 15px;
   }
-  
+  section .row img:hover {
+    border: 2px groove black;
+  }
   .col-md-6 {
     margin: 0 0 30px;
   }
@@ -130,13 +139,16 @@ body {
   footer {
     font-size: 12px;
     padding: 20px 0;
+    
   }
   
   footer .col-sm-8 {
     display: flex;
     justify-content: flex-end;
   }
-  
+  footer li:hover {
+    opacity: 0.7;
+  }
   footer ul {
     list-style: none;
   }
@@ -146,5 +158,4 @@ body {
     height: 62px;
     
   }
-
-
+ 
