@@ -38,8 +38,16 @@ body {
     padding: 0 20px;
     margin: 0;
     font-size: 20px;
-    
   }
+
+  header p:hover{
+    transform: scale(1.5);
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  
+}
   .wcpt {
     margin-top:200px;
     float: righ
@@ -63,6 +71,18 @@ body {
     justify-content: left;
     margin-top: 0px;
     
+
+  .text {
+      display:flex;
+      width: 100% ;
+      position:relative;
+      margin:left 400px;
+      font-family: "Helvetica";
+      text-align: center;
+    }
+    .text h4 {
+      border: 2px white;
+    }
   }
   footer {
     font-size: 12px;
@@ -72,6 +92,9 @@ body {
   footer .col-sm-8 {
     display: flex;
     justify-content: flex-end;
+  }
+  footer li:hover {
+    opacity: 0.7;
   }
   
   footer ul {
@@ -83,3 +106,5 @@ body {
     height: 62px;
     
   }
+
+ 
