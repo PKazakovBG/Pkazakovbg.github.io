@@ -7,6 +7,10 @@ body {
     background: -webkit-linear-gradient(-45deg, rgba(235,241,246,1) 6%,rgba(171,211,238,1) 52%,rgba(213,235,251,1) 94%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, rgba(235,241,246,1) 6%,rgba(171,211,238,1) 52%,rgba(213,235,251,1) 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
   header {
@@ -70,20 +74,67 @@ a:link, a:visited {
     flex-wrap: wrap;
     justify-content: left;
     margin-top: 0px;
-    
-
-  .text {
-      display:flex;
-      width: 100% ;
-      position:relative;
-      margin:left 400px;
-      font-family: "Helvetica";
-      text-align: center;
-    }
-    .text h4 {
-      border: 2px white;
-    }
+  
   }
+  div.container {
+    height: 10em;
+    position: relative 
+  }
+div.container h3 {
+  margin: 0;
+  position: absolute;
+  
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+    /* НАЧАЛО НА КОДА ЗА ТЕЙБЪЛА */
+
+  table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+    border: 2px solid;
+    
+  }
+  
+  thead th {
+    background: rgb(18, 160, 105);
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  tr {
+    background: #ffffff;
+    border-bottom: 3px solid rgb(233, 227, 227);
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+   {
+    background: green;
+
+  }
+  th, td {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+    width: 33.3333%;
+  }
+  table, th, td {
+    border: 3px solid rgb(211, 209, 209);
+}
+ /* КРАЙ НА КОДА ЗА ТЕЙБЪЛА */
+
+
   footer {
     font-size: 12px;
     padding: 20px 0;
